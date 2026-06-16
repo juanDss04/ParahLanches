@@ -1,5 +1,5 @@
-* {
- box-sizing: content-box;
+*{
+    box-sizing: border-box;
 }
 
 .box {
@@ -10,12 +10,50 @@
     padding: 70px;
 }
 
+.container{
+
+}
+
+
+.produto {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+
 .produto img {
-    height:200px;
-    width:240px;
-    border-radius:10px;
+    width: 110px;
+    height: 90px;
+    border-radius: 10px;
 }
 
 .produto img:hover {
-    transform:scale(1.5);
+    transform: scale(1.1);
+}
+
+.titulo_produto {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    color:darkgrey
+}
+
+.descr_produto {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color:darkgrey
+}
+
+.btn_somar {
+    justify-content: center;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: chocolate;
 }
