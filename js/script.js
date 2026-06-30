@@ -6,4 +6,7 @@ function VerificarLogin() {
     } else {
        alert("acesso negado.");
     }
+
+   login = document.getElementById("login").value ='';
+   senha = document.getElementById("senha").value ='';
 }
